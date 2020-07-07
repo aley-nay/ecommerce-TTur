@@ -1,5 +1,5 @@
 # ecommerce-TTur
-✈️ An ecommerce website built w/Bootstrap3, OwlCarousel <br> Live: https://aleynaben.github.io/ecommerce-TTur
+✈️ An ecommerce website built w/Bootstrap3, OwlCarousel
 
 # Review 
 <h3>⚫ Desktop</h3>
