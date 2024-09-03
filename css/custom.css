@@ -10,8 +10,8 @@ a{
 
 a:hover,
 a:focus{
-	background-color:#bdc8d9!important;
-	color: #606f81!important;
+	background-color:#b98000!important;
+	color: #b98000!important;
 }
 
 .navbar-brand, .navbar-nav > li > a{
@@ -206,8 +206,7 @@ h2.heading{
 }
 
 .animate-menu{
-	background-color: #bdc8d9;
-    box-shadow: #a8bad694 0px 0px 0px 4px;
+	background-color: #ffc74a;
 }
 	
 form.search-it{
