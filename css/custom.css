@@ -207,7 +207,6 @@ h2.heading{
 
 .animate-menu{
 	background-color: #bdc8d9;
-    box-shadow: #a8bad694 0px 0px 0px 4px;
 }
 	
 form.search-it{
@@ -224,7 +223,7 @@ form.search-it input[type=text] {
     border: none;
     float: left;
     width: 50%;
-    background: #ffffff;
+    background: #eee;
 	border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
