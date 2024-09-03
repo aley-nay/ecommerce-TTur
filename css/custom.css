@@ -10,6 +10,7 @@ a{
 
 a:hover,
 a:focus{
+    background: none;
 	color: #b98000!important;
 }
 
@@ -57,7 +58,7 @@ a:focus{
 }
 
 #search-in.collapse{width: 100%; padding-bottom:20px; background: #ffc74a;}
-form.search-it input[type=text]:focus, form.search-it button:focus{outline: none; background: #a9a5a5;}
+form.search-it input[type=text]:focus, form.search-it button:focus{outline: none; background: #eee;}
 
 #header .hero-text{
 	height:100vh;
