@@ -10,8 +10,8 @@ a{
 
 a:hover,
 a:focus{
-    background: none;
-	color: #b98000!important;
+	background-color:#bdc8d9!important;
+	color: #606f81!important;
 }
 
 .navbar-brand, .navbar-nav > li > a{
@@ -57,8 +57,8 @@ a:focus{
 	color:#ffffff;
 }
 
-#search-in.collapse{width: 100%; padding-bottom:20px; background: #ffc74a;}
-form.search-it input[type=text]:focus, form.search-it button:focus{outline: none; background: #eee;}
+#search-in.collapse{width: 100%; padding-bottom:20px; background: #bdc8d9;}
+form.search-it input[type=text]:focus, form.search-it button:focus{outline: none; background: #a9a5a5;}
 
 #header .hero-text{
 	height:100vh;
@@ -206,7 +206,8 @@ h2.heading{
 }
 
 .animate-menu{
-	background-color: #ffc74a;
+	background-color: #bdc8d9;
+    box-shadow: #a8bad694 0px 0px 0px 4px;
 }
 	
 form.search-it{
@@ -283,14 +284,14 @@ form.search-it::after {
 }
 
 .cntnt-btn{
-    background: #ffc74a;
+    background: #bdc8d9;
     color: #ffffff;
 }
 
 .city-btn{
 	border: 1px solid #e8ebf1;
     background: transparent;
-    color: #b98000;
+    color: #8d97a5;
 }
 
 #preview-tour .tour-list{
@@ -336,7 +337,7 @@ form.search-it::after {
 
 #preview-tour .tour-list .tour-list--item .list-info .gry-btn{
 	background:#ffffff;
-	color: #ffc74a;
+	color: #bdc8d9;
 	border-radius: 20px;
 	padding: 10px 30px;
 	font-weight: 700!important;
