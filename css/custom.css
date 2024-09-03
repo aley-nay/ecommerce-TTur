@@ -58,7 +58,7 @@ a:focus{
 }
 
 #search-in.collapse{width: 100%; padding-bottom:20px; background: #bdc8d9;}
-form.search-it input[type=text]:focus, form.search-it button:focus{outline: none; background: #a9a5a5;}
+form.search-it input[type=text]:focus, form.search-it button:focus{outline: none; background: #eee;}
 
 #header .hero-text{
 	height:100vh;
@@ -223,7 +223,7 @@ form.search-it input[type=text] {
     border: none;
     float: left;
     width: 50%;
-    background: #eee;
+    background: #ffff;
 	border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
