@@ -10,7 +10,6 @@ a{
 
 a:hover,
 a:focus{
-	background-color:#b98000!important;
 	color: #b98000!important;
 }
 
@@ -57,7 +56,7 @@ a:focus{
 	color:#ffffff;
 }
 
-#search-in.collapse{width: 100%; padding-bottom:20px; background: #bdc8d9;}
+#search-in.collapse{width: 100%; padding-bottom:20px; background: #ffc74a;}
 form.search-it input[type=text]:focus, form.search-it button:focus{outline: none; background: #a9a5a5;}
 
 #header .hero-text{
@@ -283,14 +282,14 @@ form.search-it::after {
 }
 
 .cntnt-btn{
-    background: #bdc8d9;
+    background: #ffc74a;
     color: #ffffff;
 }
 
 .city-btn{
 	border: 1px solid #e8ebf1;
     background: transparent;
-    color: #8d97a5;
+    color: #b98000;
 }
 
 #preview-tour .tour-list{
@@ -336,7 +335,7 @@ form.search-it::after {
 
 #preview-tour .tour-list .tour-list--item .list-info .gry-btn{
 	background:#ffffff;
-	color: #bdc8d9;
+	color: #ffc74a;
 	border-radius: 20px;
 	padding: 10px 30px;
 	font-weight: 700!important;
