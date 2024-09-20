@@ -267,7 +267,9 @@
 				}
 			});
 			document.getElementById('s1').onclick = function() {
-				document.getElementById("tour-slider").scrollIntoView({behavior: 'smooth'}).style.top = "-150px!important";
+				const s1x = document.getElementById("tour-slider");
+				s1x.scrollIntoView({behavior: 'smooth'});
+				s1x.style.top = "-150px!important";
 			}
 			document.getElementById('s2').onclick = function() {
 				document.getElementById("preview-tour").scrollIntoView({behavior: 'smooth'}).style.top = "-150px!important";
