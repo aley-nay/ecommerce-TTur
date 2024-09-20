@@ -267,18 +267,17 @@
 				}
 			});
 			document.getElementById('s1').onclick = function() {
-				const s1x = document.getElementById("tour-slider");
-				s1x.scrollIntoView({behavior: 'smooth'});
-				s1x.style.top = "-150px!important";
+				document.getElementById("tour-slider").scrollIntoView({behavior: 'smooth'});
+
 			}
 			document.getElementById('s2').onclick = function() {
-				document.getElementById("preview-tour").scrollIntoView({behavior: 'smooth'}).style.top = "-150px!important";
+				document.getElementById("preview-tour").scrollIntoView({behavior: 'smooth'});
 			}
 			document.getElementById('s3').onclick = function() {
-				document.getElementById("motto").scrollIntoView({behavior: 'smooth'}).style.top = "-150px!important";
+				document.getElementById("motto").scrollIntoView({behavior: 'smooth'});
 			}
 			document.getElementById('s4').onclick = function() {
-				document.getElementById("follow").scrollIntoView({behavior: 'smooth'}).style.top = "-150px!important";
+				document.getElementById("follow").scrollIntoView({behavior: 'smooth'});
 			}
 
 		});
