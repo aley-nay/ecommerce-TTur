@@ -29,7 +29,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 				  <ul class="nav navbar-nav navbar-right">
-					<li><a href="#" title="Favoriler">Favoriler</a></li>
+					<li><a href="#" title="Favoriler" id="favb">Favoriler</a></li>
 					<li><a href="#" title="Nereye?">Nereye?</a></li>
 					<li><a href="#" title="Hakımızda">Hakkımızda</a></li>
 					<li><a href="#" title="E-Bülten">E-Bülten</a></li>
@@ -266,6 +266,10 @@
 					$(".hero-menu").removeClass( "animate-menu" );
 				}
 			});
+			document.getElementById('favb').onclick = function() {
+				document.getElementById("tour-slider").scrollIntoView({behavior: 'smooth'});
+			}
+
 		});
 </script>
 </body>
